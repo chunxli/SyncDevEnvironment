@@ -1,0 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "python@3.9"
+brew "glib"
+brew "carthage"
+brew "cocoapods", link: false
+brew "harfbuzz"
+brew "ffmpeg"
+brew "watchman"
+cask "alfred"
+cask "bob"
